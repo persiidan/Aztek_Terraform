@@ -31,7 +31,7 @@ resource "azurerm_service_plan" "service_plan" {
 }
 
 #  ---------------------------------------------
-#  deploy module for azure monitor service (enable as for service plan)
+#  deploy module for azure monitor service (enable AutoScaling for app service plan)
 #  ---------------------------------------------
 module "monitoring" {
   source = "./monitoring"

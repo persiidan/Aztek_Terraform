@@ -19,7 +19,7 @@ variable "app_name" {
 }
 
 variable "path_to_app" {
-    description = "path from app service module to app.zip"
+    description = "path from main.tf to app.zip"
     type = string
 }
 

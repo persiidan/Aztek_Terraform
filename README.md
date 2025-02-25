@@ -1,4 +1,18 @@
 # Aztek_Terraform
+Exercise:
+Our client wants to deploy a new web application on Azure, ensuring security and internet accessibility for their customers.
+
+Client Requirements:
+- The application will be hosted in West Europe (Azure region).
+- Minimal latency for users accessing from multiple countries.
+- Prefers PaaS over IaaS where possible.
+- A cost-effective cloud solution without modifying the application.
+- Their current server setup (2 CPUs, 8GB RAM) handles 200 concurrent users, and they need to scale up to 400 users during peak load.
+
+1. Design an appropriate cloud solution (brief description or diagram).
+2. Develop Terraform automation to provision the required infrastructure and deploy the provided application.
+
+
 [pdf image of architecture](aztek.drawio.pdf)
 
 # Python Web Application on Azure
